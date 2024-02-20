@@ -1,5 +1,10 @@
 # LightBnB
 
+## Project Overview
+
+This project is a web application for users to browse and search for properties. The application incorporates features for user authentication, property listing and search functionalities.
+
+
 ## Project Structure
 
 ```
@@ -40,6 +45,9 @@
 └── server.js
 ```
 
+
+### Description:
+
 * `db` contains all the database interaction code.
   * `json` is a directory that contains a bunch of dummy data in `.json` files.
   * `database.js` is responsible for all queries to the database. It doesn't currently connect to any database, all it does is return data from `.json` files.
@@ -53,3 +61,11 @@
 * `routes` contains the router files which are responsible for any HTTP requests to `/users/something` or `/api/something`. 
 * `styles` contains all of the sass files. 
 * `server.js` is the entry point to the application. This connects the routes to the database.
+
+
+### Dependencies:
+
+* Node.js
+* Express.js
+* jQuery
+* PostgreSQL
