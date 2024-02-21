@@ -1,8 +1,6 @@
-# LightBnB
+# LightBnB Project
 
-## Project Overview
-
-This project is a web application for users to browse and search for properties. The application incorporates features for user authentication, property listing and search functionalities.
+A simple multi-page Airbnb clone that uses a server-side Javascript to display the information from queries to web pages via SQL queries.  This application incorporates features for user authentication, property listing and search functionalities.
 
 
 ## Project Structure
@@ -66,6 +64,7 @@ This project is a web application for users to browse and search for properties.
 ### Dependencies:
 
 * Node.js
-* Express.js
-* jQuery
+* express
+* bcrypt
+* cookie-session
 * PostgreSQL
